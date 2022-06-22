@@ -1,4 +1,6 @@
 #pip install qrcode use this command to download the qrcode module
 import qrcode as qr
+link=input("enter link or text")
+name=input("what should be the name of the file")
 image=qr.make("link")
 image.save("name")
